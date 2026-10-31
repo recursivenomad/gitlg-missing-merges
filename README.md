@@ -16,4 +16,8 @@ Viewing `git log --graph --oneline` from main will correctly display merges:
 * 6f029be Initial commit
 ```
 
+However, gitlg does not render the merge line from `17f33bc` into `d5655af`:
+
+![](./gitlg-merge-bug.jpg)
+
 GitLG: <https://github.com/phil294/GitLG/>
